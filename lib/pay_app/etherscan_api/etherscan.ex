@@ -15,7 +15,7 @@ defmodule PayApp.EtherscanApi do
   end
 
   def fetch_latest_block_json(request_url) do
-    case HTTPoison.get(request_url)  do
+    case HTTPoison.get(request_url) do
       {:ok, %HTTPoison.Response{body: body, status_code: 200}} ->
         %{"result" => result} = Jason.decode!(body)
         {:ok, result}

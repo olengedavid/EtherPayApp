@@ -1,7 +1,5 @@
 # EtherPayApp
 
-## APPLICATION SETUP
-
 ### PREREQUISITES
   * Register account on ['Etherscan'](https://docs.etherscan.io/getting-started/creating-an-account) to acquire the api key.
   
